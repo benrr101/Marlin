@@ -267,11 +267,12 @@
   #include "mega/pins_INTAMSYS40.h"             // ATmega2560                             env:mega2560
 #elif MB(MALYAN_M180)
   #include "mega/pins_MALYAN_M180.h"            // ATmega2560                             env:mega2560
+#elif MB(SOVOL_SV01)
+  #include "mega/pins_SOVOL_SV01.h"             // ATmega2560                             env:mega2560
 
 //
 // ATmega1281, ATmega2561
 //
-
 #elif MB(MINITRONICS)
   #include "mega/pins_MINITRONICS.h"            // ATmega1281                             env:mega1280
 #elif MB(SILVER_GATE)
